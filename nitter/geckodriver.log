@@ -1,0 +1,183 @@
+1692497212545	geckodriver	INFO	Listening on 127.0.0.1:42009
+1692497213107	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "47703" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewGPAC6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692497213928	Marionette	INFO	Marionette enabled
+1692497214050	Marionette	INFO	Listening on port 36903
+WebDriver BiDi listening on ws://127.0.0.1:47703
+Read port: 36903
+1692497214281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:47703/devtools/browser/14b99478-e524-403b-bd7d-0fd8432b5406
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Exception in clearMessagesCache" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450950/consoleActor3, type clearMessagesCacheAsync failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nclearMessagesCache@resource://devtools/client/webconsole/webconsole-ui.js:239:36\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Exception in clearMessagesCache" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442450951/consoleActor3, type clearMessagesCacheAsync failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nclearMessagesCache@resource://devtools/client/webconsole/webconsole-ui.js:239:36\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.error: "[COMPATIBILITY_UPDATE_TOP_LEVEL_TARGET_FAILURE] Connection closed, pending request to server0.conn0.windowGlobal6442450951/domwalker21, type children failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nchildren@resource://devtools/client/fronts/walker.js:336:20\n_inspectNode@resource://devtools/client/inspector/compatibility/actions/compatibility.js:271:44\n"
+console.error: "baseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:106:23\ndestroy@resource://devtools/shared/protocol/Front.js:74:10\ndestroy@resource://devtools/shared/protocol/Pool.js:211:17\nbaseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:110:13\ndestroy@resource://devtools/shared/protocol/Front.js:74:10\ndestroy@resource://devtools/client/fronts/inspector.js:128:11\ndestroy@resource://devtools/shared/protocol/Pool.js:211:17\nbaseFrontClassDestroy@resource://devtools/shared/protocol/Front.js:110:13\npurgeRequests@resource://devtools/client/devtools-client.js:672:15\nonPacket@resource://devtools/client/devtools-client.js:463:12\nsend/<@resource://devtools/shared/transport/local-transport.js:67:25\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\nexports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22\n"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 575: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1692501658136	Marionette	INFO	Stopped listening on port 36903
+1692501679477	geckodriver	INFO	Listening on 127.0.0.1:42293
+1692501680026	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "58531" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFJVVHd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692501680659	Marionette	INFO	Marionette enabled
+1692501680782	Marionette	INFO	Listening on port 41887
+WebDriver BiDi listening on ws://127.0.0.1:58531
+Read port: 41887
+1692501680992	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58531/devtools/browser/33b2fdf1-f8a5-4642-9b14-377f7b60716b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.error: "Unable to find target with innerWindowId:6442450959"
+console.error: "Unable to find target with innerWindowId:6442450963"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692503307905	geckodriver	INFO	Listening on 127.0.0.1:60875
+1692503308478	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "53235" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileatufsW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692503309120	Marionette	INFO	Marionette enabled
+1692503309205	Marionette	INFO	Listening on port 36515
+WebDriver BiDi listening on ws://127.0.0.1:53235
+Read port: 36515
+1692503309407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:53235/devtools/browser/dd629316-b92f-4648-a62e-7305e09f99f2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692503798015	geckodriver	INFO	Listening on 127.0.0.1:40703
+1692503798543	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "35707" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5kFnF8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692503799208	Marionette	INFO	Marionette enabled
+1692503799304	Marionette	INFO	Listening on port 44841
+WebDriver BiDi listening on ws://127.0.0.1:35707
+Read port: 44841
+1692503799497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:35707/devtools/browser/398614d6-4fa7-48d0-819d-5e420d2dbf13
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692504203579	geckodriver	INFO	Listening on 127.0.0.1:45305
+1692504204107	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "48883" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyCE62o"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692504204773	Marionette	INFO	Marionette enabled
+1692504204855	Marionette	INFO	Listening on port 43657
+WebDriver BiDi listening on ws://127.0.0.1:48883
+Read port: 43657
+1692504205055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:48883/devtools/browser/d8b9f5e5-8b76-457a-8d34-c6dcc49e5191
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692504382439	geckodriver	INFO	Listening on 127.0.0.1:48791
+1692504383007	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51347" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2vgb86"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692504383617	Marionette	INFO	Marionette enabled
+1692504383743	Marionette	INFO	Listening on port 44481
+WebDriver BiDi listening on ws://127.0.0.1:51347
+Read port: 44481
+1692504383956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:51347/devtools/browser/38a3179d-38ae-45b7-a372-f71e65d928a9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692544407491	geckodriver	INFO	Listening on 127.0.0.1:39991
+1692544408054	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "42837" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileAHqmYz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1692544408898	Marionette	INFO	Marionette enabled
+1692544409028	Marionette	INFO	Listening on port 33137
+WebDriver BiDi listening on ws://127.0.0.1:42837
+Read port: 33137
+1692544409113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:42837/devtools/browser/63729455-65f9-48a8-ba38-89388629e64d
+1692544458924	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152398850, errorCode: 5, reason: timeout
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://nitter.net."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1716455303653	geckodriver	INFO	Listening on 127.0.0.1:48029
+1716455304219	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "55271" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0W9UTP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1716455304849	Marionette	INFO	Marionette enabled
+1716455305011	Marionette	INFO	Listening on port 33967
+Read port: 33967
+WebDriver BiDi listening on ws://127.0.0.1:55271
+1716455305092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+DevTools listening on ws://127.0.0.1:55271/devtools/browser/384f2be5-a4d8-4f3c-bef0-b4c73a2eaeee
+1716455334894	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1716456173487	Marionette	INFO	Stopped listening on port 33967
+[11173] Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
